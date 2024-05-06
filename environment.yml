@@ -1,17 +1,9 @@
-name: jupyterlab_pyspark
+name: pyspark_env
 channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - pandas
   - numpy
+  - pandas
+  - openjdk=8
   - pyspark
-  - findspark
-  - openjdk
-  - ipywidgets
-  - jupyterlab
-  - nodejs
-  - matplotlib
-  - seaborn
-  - scikit-learn
-  - scipy
